@@ -41,4 +41,7 @@ export default function load() {
     aboutUsParagraph.appendChild(aboutUsText2);
 
     content.appendChild(aboutUsParagraph);
+
+    const aboutTab = document.querySelector('#about');
+    aboutTab.classList.add('active');
 }

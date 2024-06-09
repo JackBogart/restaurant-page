@@ -23,13 +23,16 @@ export default function load() {
 
     const footerText = document.createElement('p');
     footerText.textContent =
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit.' +
-        ' Reiciendis, laudantium sed totam libero aperiam eos ab mollitia quis impedit tempore quam perferendis nemo!' +
-        ' Expedita officiis pariatur praesentium provident dolore numquam?';
+        "Biggie John's is the home of the first pizza to exist!" +
+        " That's right, don't believe Italy's slander that the pizza belongs to them." +
+        " It's been my life achievement since the dawn of time!";
 
     footer.appendChild(footerText);
 
     // Append headline and footer to content
     content.appendChild(headline);
     content.appendChild(footer);
+
+    const homeTab = document.querySelector('#home');
+    homeTab.classList.add('active');
 }

@@ -58,4 +58,7 @@ export default function load() {
         menuItem.appendChild(itemDesc);
         content.appendChild(menuItem);
     });
+
+    const menuTab = document.querySelector('#menu');
+    menuTab.classList.add('active');
 }

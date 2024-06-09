@@ -44,3 +44,7 @@ nav > button {
 nav > button:hover:not(:active) {
     color: var(--primary-red);
 }
+
+.active {
+    color: var(--primary-red);
+}
