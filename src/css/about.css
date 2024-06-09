@@ -1,0 +1,29 @@
+.about-content {
+    margin: 20px min(5vw, 100px);
+    padding: 20px;
+    background-color: var(--primary-dark-grey);
+    color: var(--primary-font-color);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.about-content img {
+    width: 50%;
+}
+
+.about-content p {
+    margin: 50px 0px;
+    width: clamp(100px, 50vw, 1000px);
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
