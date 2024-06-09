@@ -2,7 +2,9 @@
     font-family: 'Cursive-Alexbrush';
     src: url('../fonts/AlexBrush-Regular.woff2') format('woff2'), url('../fonts/AlexBrush-Regular.woff') format('woff');
 }
-
+* {
+    padding: 0px;
+}
 :root {
     --primary-red: hsl(0, 100%, 45%);
     --primary-dark-grey: hsl(0, 0%, 15%);
@@ -16,7 +18,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    background: center/cover no-repeat url('../img/pizza-oven.jpg');
+    background: center/cover no-repeat url('../img/pizza-oven.jpg') fixed;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
         'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -41,39 +43,4 @@ nav > button {
 
 nav > button:hover:not(:active) {
     color: var(--primary-red);
-}
-
-#content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--primary-font-color);
-    text-align: center;
-}
-
-.headline {
-    font-family: 'Cursive-Alexbrush';
-    font-size: 3rem;
-    margin-top: 25px;
-}
-
-.headline * {
-    margin: 0px;
-}
-
-.headline h2 {
-    color: var(--primary-red);
-}
-
-.footer {
-    width: 100%;
-}
-p {
-    background-color: var(--primary-dark-grey);
-    color: var(--primary-font-color);
-    padding: 40px clamp(50px, 15vw, 500px);
-    font-size: 1.4rem;
-    margin: 0px;
 }

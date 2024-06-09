@@ -1,6 +1,10 @@
+import '../css/homepage.css';
+
 const content = document.querySelector('#content');
 
 export default function load() {
+    content.classList.add('homepage-content');
+
     // Create headline section
     const headline = document.createElement('div');
     headline.classList.add('headline');
