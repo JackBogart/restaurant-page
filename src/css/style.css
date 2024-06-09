@@ -2,9 +2,7 @@
     font-family: 'Cursive-Alexbrush';
     src: url('../fonts/AlexBrush-Regular.woff2') format('woff2'), url('../fonts/AlexBrush-Regular.woff') format('woff');
 }
-* {
-    padding: 0px;
-}
+
 :root {
     --primary-red: hsl(0, 100%, 45%);
     --primary-dark-grey: hsl(0, 0%, 15%);
